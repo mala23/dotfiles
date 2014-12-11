@@ -5,3 +5,5 @@
 	helper = osxkeychain
 [push]
 	default = matching
+[core]
+	excludesfile = ~/.gitignore
