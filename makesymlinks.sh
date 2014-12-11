@@ -6,7 +6,7 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
+dir=~/Projects/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="bashrc vimrc vim zshrc oh-my-zsh gitconfig gitignore"    # list of files/folders to symlink in homedir
 

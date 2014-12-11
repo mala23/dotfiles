@@ -100,7 +100,3 @@ alias v60=mocha --compilers coffee:coffee-script/register
 bindkey -v
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
-# Facebook API
-export APP_ID_FB=885800521444049
-export APP_SECRET_FB=0dd25af1505068dc85e26cdb5b495c9a
