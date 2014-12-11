@@ -1,0 +1,7 @@
+[user]
+	name = mala23
+	email = mail@mala23.me
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
