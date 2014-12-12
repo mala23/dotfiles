@@ -100,6 +100,11 @@ let g:rspec_runner = "os_x_iterm"
 ":command NT NERDTree
 "Set default width for NERDTree panel
 let g:NERDTreeWinSize = 20
+"Airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:Powerline_symbols = 'fancy'
+highlight clear SignColumn
 "let NERDTreeMapOpenInTab='\t'
 "shortcuts for golden-ratio
 "autocmd StdinReadPre * let s:std_in=1
