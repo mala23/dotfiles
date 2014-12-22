@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/mala23/Projects/how-to-node/mongodb'
 let g:netrw_dirhist_2='/Users/mala23/Projects/rock-paper-scissors-sinatra/views'
 let g:netrw_dirhist_3='/Users/mala23/Projects/how-to-mongo-2'
+let g:netrw_dirhist_4='/Users/mala23/.oh-my-zsh'
+let g:netrw_dirhist_5='/Users/mala23/Projects/dotfiles/oh-my-zsh'
