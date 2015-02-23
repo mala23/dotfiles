@@ -3,6 +3,8 @@ syntax on
 filetype plugin indent on
 let g:solarized_termcolors=256
 colorscheme solarized
+"CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 "colorscheme vim-distinguished
 "colorscheme candy.vim
 set background=dark

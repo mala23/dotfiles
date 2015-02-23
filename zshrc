@@ -99,4 +99,4 @@ alias v60=mocha --compilers coffee:coffee-script/register
 
 bindkey -v
 
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+[[ -s $(brew --prefix)/etc/autojump.sh ]] && . $(brew --prefix)/etc/autojump.sh
