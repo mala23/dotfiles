@@ -1,13 +1,13 @@
 call pathogen#infect()
 syntax on
 filetype plugin indent on
-let g:solarized_termcolors=256
 colorscheme solarized
 "CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 "colorscheme vim-distinguished
 "colorscheme candy.vim
-set background=dark
+set noswapfile
+set listchars=tab:>~,trail:-,nbsp:_
 set number
 set tabstop=2
 set shiftwidth=2
@@ -110,3 +110,8 @@ highlight clear SignColumn
 "let NERDTreeMapOpenInTab='\t'
 "shortcuts for golden-ratio
 "autocmd StdinReadPre * let s:std_in=1
+"Less syntax highlighting
+nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+"Shortcuts for Emmet
+let g:user_emmet_expandabbr_key='<Tab>'
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")

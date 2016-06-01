@@ -1,15 +1,9 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/mala23/Projects/how-to-node/mongodb'
-let g:netrw_dirhist_2='/Users/mala23/Projects/rock-paper-scissors-sinatra/views'
-let g:netrw_dirhist_3='/Users/mala23/Projects/how-to-mongo-2'
-let g:netrw_dirhist_4='/Users/mala23/Projects/dotfiles/oh-my-zsh'
-=======
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/mala23/Projects/how-to-node/mongodb'
 let g:netrw_dirhist_2='/Users/mala23/Projects/rock-paper-scissors-sinatra/views'
 let g:netrw_dirhist_3='/Users/mala23/Projects/how-to-mongo-2'
 let g:netrw_dirhist_4='/Users/mala23/.oh-my-zsh'
 let g:netrw_dirhist_5='/Users/mala23/Projects/dotfiles/oh-my-zsh'
->>>>>>> 7933c700aac3712dc8b8d4282e3a0c17712c31a1
+let g:netrw_dirhist_6='/Users/mala23/.oh-my-zsh'
+let g:netrw_dirhist_7='/Users/mala23/Documents/Processing/sketch_151115a'

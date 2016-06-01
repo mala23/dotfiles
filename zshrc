@@ -1,8 +1,17 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Processing-Java
+alias p5='processing-java --sketch="/$(pwd)" --run'
+
 # Arduino Scripts
-alias arup="artoo arduino upload /dev/cu.usbmodem1431"
+alias arup='artoo arduino upload /dev/cu.usbmodem1431'
+
+# Python
+export PATH="/usr/local/bin:/usr/local/share/python:$PATH"
+
+# Homebrew
+export PATH="/usr/local/sbin:$PATH"
 
 # Use VI mode
 bindkey -v
@@ -20,7 +29,7 @@ export KEYTIMEOUT=1
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="mala23"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
